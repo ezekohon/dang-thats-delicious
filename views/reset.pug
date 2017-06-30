@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	.innet
+		form.form(method="POST")
+			h2 Reset password
+			label(for="password") Password
+			input(type="password" name="password")
+			label(for="password-confirm") Confirm Password
+			input(type="password" name="password-confirm")
+			input(type="submit" value="Reset Password")
